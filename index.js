@@ -39,7 +39,7 @@ app.use('/',userRouter);
 app.listen(PORT,()=>console.log("the server started",PORT));
 
 app.get("/",(request,response)=>{
-    response.send("welcome to student mentor ");
+    response.send("welcome to authenticate chettinad recipe ");
 });
    
 
