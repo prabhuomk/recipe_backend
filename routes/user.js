@@ -118,7 +118,7 @@ router.route("/addrecipe").post(async (request, response) => {
   const { title, src, list, prep } = request.body;
   const client = await createConnection();
   const myRecipe = await insertRecipeData(client, { title, src, list, prep });
-  response.send({ message: "Successfully new recipe got added" });
+  response.send({ message: "Successfully  recipe got added" });
 });
 
 router
